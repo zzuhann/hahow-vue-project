@@ -13,7 +13,7 @@
 </div>
 <div id="app">
   <!--v-for在命名、抓資料時不能命名成和保留字相同(ex class)-->
-  <div class="classbox" v-for="lesson in classes">
+  <a class="classbox" v-for="lesson in classes" v-bind:href="'https://hahow.in/courses/'+lesson._id" target="_blank">
     <div class="teacher" v-bind:style="'background-image:url('+lesson.owner.profileImageUrl+')'"></div>
     <!--多看幾次！放網址-->
     <!--v-bind內部不用大括號，直接打名稱就好-->

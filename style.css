@@ -11,6 +11,10 @@ body, html {
   background-color: #f3f3f1;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   height: 400px;
   background: linear-gradient(-45deg, #FFE18D 10%, #FFE18D 10%, #FFDA71 10%, #FFDA71 40%, #FFE18D 40%, #FFE18D 60%, #FFDA71 60%, #FFDA71 90%, #FFE18D 90%, #FFE18D 100%);
